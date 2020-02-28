@@ -4,3 +4,56 @@ body{
     outline: 0px;
     font-family: 'Poppins', serif;
 }
+/************************Header has started***********************/
+.headersection {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.header-box {
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+}
+.header-box img {
+    width: 100%;
+}
+.header {
+    margin: 141px 0px 0px 150px;
+}
+.header h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(247, 49, 99);
+}
+.header h2 {}
+.header p {
+    text-align: justify;
+    font-size: 13px;
+    padding-bottom: 14px;
+}
+.button {
+    margin-top: 6px;
+
+}
+.button a {
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color:  rgb(247, 49, 99);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+.button a:hover {
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: #494949;
+    border-radius:;
+    color:white;
+    font-weight: bold;
+}
+.header-photp {
+    margin-top: 34px;
+}
