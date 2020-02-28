@@ -8,14 +8,15 @@ body{
 .headersection {
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
     background-size: cover;
     background-position: center;
 }
 .header-box {
     width: 40%;
+    margin-top: 73px;
     float: left;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 .header-box img {
     width: 100%;
@@ -27,6 +28,9 @@ body{
     font-weight: bolder;
     font-size: 35px;
     color: rgb(247, 49, 99);
+    padding: 0px;
+    margin-top: -20px;
+    margin-bottom: -10px;
 }
 .header h2 {}
 .header p {
@@ -56,4 +60,53 @@ body{
 }
 .header-photp {
     margin-top: 34px;
+}
+/************************Header has ended***********************/
+/************************Biography has started***********************/
+.biography {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.bio-box {
+    width: 40%;
+    float: left;
+    margin-left:100px;
+
+}
+.bio-photo {
+    margin-top: 100px;
+}
+.bio-photo img {
+    width: 100%;
+    
+}
+.bio-text {
+    margin-top: 250px;
+
+}
+.bio-text h1 {
+    
+}
+.bio-text p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.cv-buttpon a {
+    text-decoration: none;
+    padding: 5px 40px;
+    background-color:  rgb(247, 49, 99);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+.cv-buttpon a:hover {
+    text-decoration: none;
+    padding: 5px 40px;
+    background-color: #494949;
+    border-radius:;
+    color:white;
+    font-weight: bold;
 }
