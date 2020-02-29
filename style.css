@@ -32,7 +32,6 @@ body{
     margin-top: -20px;
     margin-bottom: -10px;
 }
-.header h2 {}
 .header p {
     text-align: justify;
     font-size: 13px;
@@ -54,7 +53,6 @@ body{
     text-decoration: none;
     padding: 5px 20px;
     background-color: #494949;
-    border-radius:;
     color:white;
     font-weight: bold;
 }
@@ -69,6 +67,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 800px;
+    margin-bottom: 100px;
 }
 .bio-box {
     width: 40%;
@@ -87,9 +86,6 @@ body{
     margin-top: 250px;
 
 }
-.bio-text h1 {
-    
-}
 .bio-text p {
     text-align: justify;
     padding-bottom: 10px;
@@ -106,7 +102,82 @@ body{
     text-decoration: none;
     padding: 5px 40px;
     background-color: #494949;
-    border-radius:;
     color:white;
     font-weight: bold;
+}
+.work-section {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+.work-section h1 {
+    text-align: center;
+    font-size: 40px;
+}
+#img-container {
+    padding-left: 100px;
+    padding-right: 40px;
+}
+.latest-work {
+    padding-top: 50px;
+    width: 28%;
+    float: left;
+    height: 300px;
+    padding-left: 30px;
+    
+    
+}
+.latest-work img {
+    width: 100%;
+}
+/******************** Client area has started***************************/
+.client-description {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.client {
+
+    text-align: center;
+}
+.client h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.client-opinion {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+small {
+    color: gray;
+}
+.contact-part {
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+    background-color: #FF1772;
+}
+.contact-part p {
+    padding: 12px 0px 0px 0px;
+    margin-bottom: -10px;
+    color: white;
+}
+.contact-part  h3 {
+    padding-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+footer {
+    text-align: center;
+    font-weight: 500;
+    padding-top: 5px;
 }
